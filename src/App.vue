@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='./../dist/logo.png')
     h1 appMusic
     select(v-model="selectedContry")
       option(v-for="contry in contries" :value="contry.value") {{ contry.name }}
